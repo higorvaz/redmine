@@ -1,0 +1,30 @@
+.div_burndown {
+  width: 70%;
+}
+
+div.filtro {
+    display: block;
+    width: 100%;
+    margin: 5px 0px 10px 25px;
+}
+
+h3.filtro {
+    display: inline;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+p.filtro {
+    display: inline;
+    padding: 10px;
+    vertical-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+select.filtro {
+    width: 150px;
+    margin: 5px;
+    text-align: right;
+    vertical-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    box-shadow: 3px 3px 3px #eee;
+}

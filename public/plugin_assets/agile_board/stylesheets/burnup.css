@@ -1,0 +1,15 @@
+#error {
+  display: block;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px 5px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #000000;
+  background-color: #FFBABA;
+  background-image: url('../images/error.png');
+}
+
+.div_burnup {
+  width: 70%;
+}

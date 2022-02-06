@@ -1,0 +1,121 @@
+#error {
+  display: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px 5px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #000000;
+  background-color: #FFBABA;
+  background-image: url('../images/error.png');
+}
+
+p.error_message {
+  display: block;
+  vertical-align: center;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  margin: 5px;
+}
+
+#board {
+   display: table;
+   margin: 0;
+   padding: 0;
+   border-spacing: 5px;
+}
+
+.section {
+   display: table-cell;
+   margin: 0;
+   border: 1px solid #666;
+   border-radius: 5px;
+   padding: 5px;
+   min-width: 180px;
+}
+.section.droppable {
+    border: 1px dashed #666;
+}
+.section > h1 {
+    margin: 0;
+    border-bottom: 1px solid #999;
+    padding: 0;
+    font-size: 12pt;
+    text-align: center;
+}
+.atividade {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 5px;
+    padding: 5px;
+    color: black;
+    background: #ff8;
+    cursor: move;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    box-shadow: 2px 2px 2px #eee;
+    width: 90%;
+}
+
+.atividade > span {
+    float: left;
+}
+
+.atividade > h4 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #000263;
+    border-bottom: 1px solid #3E3E3E;
+}
+
+.color_picker {
+    background: url(../images/color.png) center no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding: 10px;
+    margin: 0px transparent;
+    cursor: context-menu;
+    float: right;
+}
+
+.edit_issue {
+    background: url(../images/edit.png) center no-repeat;
+    float: right;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.filtro {
+    display: block;
+    width: 100%;
+    margin: 5px 0px 10px 25px;
+}
+
+h3.filtro {
+    display: inline;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+p.filtro {
+    display: inline;
+    padding: 10px;
+    vertical-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+select.filtro {
+    width: 150px;
+    margin: 5px;
+    text-align: right;
+    vertical-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    box-shadow: 3px 3px 3px #eee;
+}
