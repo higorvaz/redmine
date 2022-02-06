@@ -1,0 +1,9 @@
+{
+    "git.ignoreLimitWarning": true,
+    "redmine.apiKey": "53e32a586c6d382d1b9d022330f7eec4e2fbd5a2",
+    "redmine.url": "http://127.0.0.1:3000/",
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useBundler": true,
+    "editor.wordWrap": "on"
+}
