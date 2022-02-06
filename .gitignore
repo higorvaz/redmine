@@ -22,8 +22,8 @@
 /log/*.log*
 /log/mongrel_debug
 # /plugins/*
-!/plugins/README
-/public/dispatch.*
+# !/plugins/README
+# /public/dispatch.*
 # /public/plugin_assets/*
 # /public/themes/*
 # !/public/themes/alternate
