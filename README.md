@@ -1,5 +1,5 @@
 # redmine
-Redmine latest customizatons [plugins] [themes]
+Redmine latest customizations [plugins] [themes]
 - Issues Kanban Board plugin, drag and drop, stylings.
 
 Screencast at YouTube
